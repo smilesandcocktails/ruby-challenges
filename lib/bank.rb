@@ -2,6 +2,7 @@ p "What would you like to do? (deposit, withdraw, check_balance)"
 request = gets.chomp
 @balance = 4000
 
+
 def bank (request)
   puts "Your current balance is: #{@balance}."
     if request == "deposit"
